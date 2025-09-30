@@ -1,4 +1,4 @@
-            #language: pt
+  #language: pt
 
             Funcionalidade: configurar produto
 
@@ -13,8 +13,8 @@
             Então devo ver uma mensagem informando que todas as opções são obrigatorias
 
             Cenario: Limite de quantidade
-            Dadi qye selecionei cor <roxa> e tamanho <M>
-            Quando seleciono a quantiade <12>
+            Dado que selecionei cor <roxa> e tamanho <M>
+            Quando seleciono a quantidade <12>
             Então não devo conseguir adicionar mais de 10 unidade ao carrinho
 
             Exemplos:
@@ -24,7 +24,8 @@
             | azul     | G       | 15         |
             | preto    | P       | 20         |
             
-            Cenario: Retonroar ao estado original ao clicar em 'limpar'
+            Cenario: Retornar ao estado original ao clicar em 'limpar'
             Dado que selecionei cor, tamanho e quantidade
-            Quando clico no botão 'limpar'
+            Quando clico no botão "limpar"
             Então todas as opções devem voltar ao estado original
+            
