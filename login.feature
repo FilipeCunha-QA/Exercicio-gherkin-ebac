@@ -6,18 +6,18 @@
             Para visualizar meus pedidos
 
 
-            Cenario: Login com sucesso
+            Cenario: Login
             Dado que estou na pagina de login
             Quando preencho o campo e-mail com <e-mail>
             E preencho o campo senha com <senha>
             E devo ser redirecionado para a pagina de checkout
             Então deve exibir a mensagem <mensagem>
 
-            Cenario: Login invladio
+            Cenario: Validar Login
             Dado que estou na pagina de login
             Quando preencho o campo e-mail com <e-mail>
             E preencho o campo senha com <senha>
-            Então devo ver a mensagem de alerta "Usuario ou senha invalidos"
+            Então devo ver a mensagem de alerta <mensagem>
 
             Exemplos:
             | email                | senha       | mensagem                 |
