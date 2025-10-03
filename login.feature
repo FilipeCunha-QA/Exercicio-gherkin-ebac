@@ -6,7 +6,7 @@
             Para visualizar meus pedidos
 
 
-            Esquema do Cenario: Login
+            Cenario: Login
             Dado que estou na pagina de login
             Quando preencho o campo e-mail com <e-mail>
             E preencho o campo senha com <senha>
