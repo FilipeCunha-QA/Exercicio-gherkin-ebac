@@ -6,14 +6,14 @@
             Para visualizar meus pedidos
 
 
-            Cenario: Login
+            Esquema do Cenario: Login
             Dado que estou na pagina de login
             Quando preencho o campo e-mail com <e-mail>
             E preencho o campo senha com <senha>
             E devo ser redirecionado para a pagina de checkout
             Então deve exibir a mensagem <mensagem>
 
-            Cenario: Validar Login
+            Esquema do Cenario: Validar Login
             Dado que estou na pagina de login
             Quando preencho o campo e-mail com <e-mail>
             E preencho o campo senha com <senha>

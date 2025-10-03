@@ -7,7 +7,7 @@
       E escolher quantidade
       Para Depois inserir no carrinho
 
-      Cenario: Seleção de tamanho
+      Esquema do Cenario: Seleção de tamanho
       Dado que estou na pagina do produto
       Quando não seleciono a cor, tamanho ou quantidade
       Então devo ver uma mensagem informando que todas as opções são obrigatorias
@@ -21,7 +21,7 @@
       cor
       | cor      | tamanho | quantidade | mensagem                                 |
       | vermelho | M       | 10         | "Produto Adicionado ao carrinho"         |
-      | azul     | G       | 05         | "Produto adiconado ao carrinho"          |
+      | azul     | G       | 05         | "Produto Adiconado ao carrinho"          |
       | preto    | P       | 20         | "Quantidade de itens acima do permitido" |
 
 Cenario: Retornar ao estado original ao clicar em 'limpar'
